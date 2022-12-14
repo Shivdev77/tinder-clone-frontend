@@ -1,0 +1,32 @@
+.card {
+    width: 600px;
+    position: relative;
+    max-width: 85vh;
+    height: 59vh;
+    padding: 20px;
+    color: blue;
+    box-shadow: 0px 18px 53px rgb(185, 175, 183);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tinder_cards__container {
+    display: flex;
+   justify-content: center;
+   margin-top: 10vh;
+}
+.swipe {
+    position: absolute;
+}
+
+
+.card h3 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
