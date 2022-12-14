@@ -1,5 +1,4 @@
 import React from 'react';
-import headerLogo from '/Users/shivdev/Desktop/web/tinder/tinder-clone/src/tinder_icon.png';
 import "./Header.css";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import IconButton  from '@mui/material/IconButton';
@@ -12,7 +11,7 @@ function Header() {
 <AccountCircleIcon className='header_icon' fontSize='large'/>
 </IconButton>
 
-<img src={headerLogo} alt="tinder-icon" className='header_logo'/>
+<img src="https://www.shutterstock.com/image-vector/flame-icon-graphic-template-vector-260nw-733799875.jpg" alt="tinder-icon" className='header_logo'/>
 <IconButton>
 <ForumIcon className='header_icon' fontSize='large'/>
 </IconButton>
